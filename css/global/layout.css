@@ -7,3 +7,15 @@
         padding-inline: 5rem;
     }
 }
+
+@media (width >= 1020px) {
+    .wrapper{
+        padding-inline: 146px;
+    }
+}
+
+@media (width >= 1200px){
+    .wrapper{
+        max-width: 1024px;
+    }
+}

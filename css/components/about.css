@@ -1,4 +1,22 @@
 #about{
     padding-block: 2rem;
-    background: var(--secondary-color);
+    /* box-shadow: 0 0  20px rgba(0, 0, 0, 0.207); */
+}
+
+#about h1{
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+#about p{
+    line-height: 1.5;
+    font-weight: 500;
+    
+}
+
+@media (width < 500px) {
+    #about{
+        padding-block: 0;
+    }
 }
