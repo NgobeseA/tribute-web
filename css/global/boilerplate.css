@@ -1,8 +1,14 @@
 :root{
     --bg-color: rgb(241, 246, 247);
     --text-color: rgb(43, 38, 38);
-    --second-color: rgb(6, 182, 6);
+    --main-color: rgb(61, 188, 231);
 
+}
+
+.darkmode{
+    --bg-color: rgb(27, 27, 27);
+    --text-color: rgb(209, 223, 235);
+    --main-color: rgb(61, 188, 231);
 }
 
 *{
@@ -12,4 +18,18 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+img{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+a{
+    color: var(--text-color);
 }
