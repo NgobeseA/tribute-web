@@ -1,3 +1,9 @@
 .wrapper{
     padding-inline: 1rem;
 }
+
+@media (width >= 500px) {
+    .wrapper{
+        padding-inline: 5rem;
+    }
+}

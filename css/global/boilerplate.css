@@ -2,13 +2,14 @@
     --bg-color: rgb(241, 246, 247);
     --text-color: rgb(43, 38, 38);
     --main-color: rgb(61, 188, 231);
-
+    --secondary-color: rgba(121, 192, 222, 0.844);
 }
 
 .darkmode{
-    --bg-color: rgb(27, 27, 27);
-    --text-color: rgb(209, 223, 235);
+    --bg-color: rgb(4, 4, 4);
+    --text-color: rgb(149, 198, 241);
     --main-color: rgb(61, 188, 231);
+    --secondary-color: rgba(121, 192, 222, 0.844);
 }
 
 *{
@@ -31,5 +32,9 @@ img{
 }
 
 a{
+    color: var(--text-color);
+}
+
+p{
     color: var(--text-color);
 }

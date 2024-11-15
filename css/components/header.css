@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    background-color: bisque;
+    background-color: var(--bg-color);
 }
 
 .navigation{
