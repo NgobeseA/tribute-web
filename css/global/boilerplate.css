@@ -1,0 +1,15 @@
+:root{
+    --bg-color: rgb(241, 246, 247);
+    --text-color: rgb(43, 38, 38);
+    --second-color: rgb(6, 182, 6);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
