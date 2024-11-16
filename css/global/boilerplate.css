@@ -3,6 +3,7 @@
     --text-color: rgb(43, 38, 38);
     --main-color: rgb(61, 188, 231);
     --secondary-color: rgba(121, 192, 222, 0.844);
+    --bg-inverse: rgb(4, 4, 4);;
 }
 
 .darkmode{
@@ -10,6 +11,7 @@
     --text-color: rgb(149, 198, 241);
     --main-color: rgb(61, 188, 231);
     --secondary-color: rgba(121, 192, 222, 0.844);
+    --bg-inverse: rgb(241, 246, 247);
 }
 
 *{
@@ -32,7 +34,12 @@ img{
 }
 
 a{
-    color: var(--text-color);
+    color: rgba(6, 182, 6, 0.986);
+}
+a:hover{
+    color: gray;
+    font-weight: 700;
+    text-decoration: 3px underline wavy var(--main-color);
 }
 
 p{

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body >
+<body class="">
     <header>
         <div class="wrapper navigation">
             <a href="#home" class="logo">Elon <span>Musk</span></a>
@@ -51,7 +51,7 @@
     <main class="wrapper">
         <section class="hero" id="home">
             <div class="hero-img">
-                <img src="./assets/Elon-X-Company.webp" alt="elon musk picture" width="1108" height="1064">
+                <img class="elon" src="./assets/Elon-X-Company.webp" alt="elon musk picture" width="1108" height="1064">
             </div>
 
             <div class="hero-text">
@@ -61,14 +61,20 @@
             </div>
         </section>
         <section id="about">
-            <h1>About</h1>
+            
+            <div>
+                <h1>About</h1>
             <p>Elon Reeve Musk is a businessman known for his key roles in the space company SpaceX
                 and the automotive company Tesla, Inc. Other involvements include ownership of X Corp.,
                 the company that operates the social media platform X, and his role in the founding of
                 the Boring Company, xAI, Neuralink, and OpenAI.
             </p>
+            </div>
+            <div class="addPic">
+                <img src="./assets/Elon-X-Company.webp" alt="">
+            </div>
         </section>
-        <section id="timeline">
+        <!-- <section id="timeline">
             <h1>Timeline</h1>
             <div class="timeline">
                 <div class="timeline-details">
@@ -83,10 +89,135 @@
                     <p>1992 goes to Penn, Stanford</p>
                 </div>
             </div>
+        </section> -->
+        <section id="timeline">
+            <h1>Achievements</h1>
+            <div class="timeline">
+                <div class="timeline-container left-container">
+                    <div class="timeline-textbox">
+                        <h3>Zip2</h3>
+                        <small>Co-founded Zip2</small>
+                        <p>
+                            an online city guide software company, 
+                            which was sold to Compaq for $307 million
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container right-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>X.com</h3>
+                        <small>Founded X.com</small>
+                        <p>
+                            an online payment company that later became PayPal
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container left-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>SpaceX</h3>
+                        <small>Founded SpaceX</small>
+                        <p>
+                            the goal of reducing space transportation costs
+                             and enabling the colonization of Mars                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container right-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>Tesla</h3>
+                        <small>Joined Tesla</small>
+                        <p>
+                            He joined Tesla Motors as Chairman of the Board and later became CEO, 
+                            leading the company to become a leader in electric vehicles
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container left-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>SolarCity </h3>
+                        <small>Founded SolarCity</small>
+                        <p>
+                            a solar energy services company, which was later acquired by Tesla
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container right-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>Neuralink</h3>
+                        <small>Founded Neuralink</small>
+                        <p>
+                            A neurotechnology company focused on developing brain-machine interfaces
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container left-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>The Boring Company</h3>
+                        <small>Founded The Boring Company</small>
+                        <p>
+                            Focuses on tunnel construction and infrastructure
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container right-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>Twitter (now X Corp)</h3>
+                        <small>Majority owner and CEO</small>
+                        <p>
+                            Became the majority owner and CEO of Twitter (now X Corp.) in 2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container left-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>Hyperloop</h3>
+                        <small>Proposed the Hyperloop</small>
+                        <p>
+                            A high-speed ground transportation concept
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-container right-container">
+                    <h2></h2>
+                    <div class="timeline-textbox">
+                        <h3>OpenAI</h3>
+                        <small>Co-founded OpenAI</small>
+                        <p>
+                            An artificial intelligence research organization.
+                            This organization also assisted me with this information.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
 
     </main>
+
+    <footer>
+        <div class="wrapper foot">
+            <p class="line">Fork and Improve it if you can.</p>
+        <p><a href="https://github.com/NgobeseA">Andile Ngobese</a></p>
+        <p>Access this repo <a href="https://github.com/NgobeseA/tribute-web">here</a></p>
+        </div>
+    </footer>
     <!-- <script src="script.js" defer></script> -->
     <script>
         function showSidebar() {

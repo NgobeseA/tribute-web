@@ -1,21 +1,125 @@
 #timeline{
-    padding-block: 2rem;
+    padding-block: 3rem;
 }
 
 #timeline h1{
     text-align: center;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    color: var(--main-color);
 }
 
 .timeline{
-    margin-bottom: 1.5rem;
+    max-width: 1200px;
     position: relative;
+    margin: 100px auto;
 }
 
-.timeline .timeline-details{
+.timeline-container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+}
+
+.timeline-textbox{
+    padding: 20px 30px;
+    border: 3px solid var(--main-color);
+    position: relative;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.timeline-textbox h3, small{
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+small{
+    line-height: 1.5;
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.timeline-container h2{
+    position: absolute;
+    width: 20px;
+    border-radius: 50%;
+    top: 32px;
+    right: -20px;
+    z-index: 10;
+    background: red;
+}
+
+.right-container h2{
+    left: -20px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: var(--main-color);
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1 ;
+}
+
+.right-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+
+@media screen and (max-width: 600px) {
+    .timeline{
+        margin: 50px auto;
+    }
+
+    .timeline::after{
+        left: 31px;
+    }
+
+    .timeline-container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+
+    .text-box{
+        font-size: 13px;
+    }
+
+    .text-box small{
+        margin-bottom: 10px;
+    }
+
+    .left-container{
+        left: 10px;
+    }
+
+    .right-container{
+        left: 0;
+    }
+}
+
+/* .timeline .timeline-details{
     border: 2px solid var(--main-color);
     padding: 1rem;
     border-radius: 5px;
+    width: 16rem;
 }
 
 .timeline-details p{
@@ -26,13 +130,13 @@
 .timeline:nth-child(odd){
     border-left: 2px solid var(--main-color);
     padding-left: 1rem;
-    /* transform: translate(17rem); */
+    transform: translate(17rem);
 }
 
 .timeline:nth-child(even){
     border-right: 2px solid var(--main-color);
     padding-right: 1rem;
-    /* transform: translate(-17rem); */
+    transform: translate(-17rem);
 }
 
 .timeline:nth-child(odd)::before,
@@ -60,4 +164,4 @@
 
     
 
-}
+} */

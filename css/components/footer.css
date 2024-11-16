@@ -1,0 +1,35 @@
+footer{
+    background-color: var(--bg-inverse);
+    padding-block: 3rem;
+    
+}
+
+footer p{
+    font-weight: 600;
+}
+
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .line{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 600px) {
+    .foot{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .foot p{
+        padding-bottom: 1rem;
+    }
+    .foot p:last-child{
+        padding-bottom: 0;
+    }
+}

@@ -1,5 +1,8 @@
 #about{
     padding-block: 2rem;
+    display: flex;
+    gap: 3rem;
+    max-height: 400px;
     /* box-shadow: 0 0  20px rgba(0, 0, 0, 0.207); */
 }
 
@@ -15,8 +18,18 @@
     
 }
 
+.addPic{
+    display: none;
+}
+
 @media (width < 500px) {
     #about{
         padding-block: 0;
+    }
+}
+
+@media (width >= 1024px){
+    .addPic{
+        display: flex;
     }
 }
